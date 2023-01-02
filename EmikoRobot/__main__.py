@@ -82,14 +82,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Yoo mek {} !*
-✪ Ini bot untuk manage ama musikan di grup lu pada [✨](https://telegra.ph/file/84406e4ebefbab4aad1a1.jpg)
+*Yoo Tod {} !*
+✪ Ini bot untuk manage ama musikan di grup lu pada [✨](https://telegra.ph/file/254df30aa6913d296abce.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Ketik aja tuh tombol kan bisa baca lu pada.
-✪ powered by @SipalingOTAN
+✪ Kaga usah nanya, itu tombol langsung di klik.
+✪ powered by @Lexsnih
 """
 
 buttons = [
@@ -104,7 +104,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ Tambah kan Bot Ini Ke Group ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -429,8 +429,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/havingsexid"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/gbtnyaOtan"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/+Za08bmlN2kNlMzY1"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/Lexanih"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -449,7 +449,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Otan", url="https://t.me/SipalingOTAN"),
+                    InlineKeyboardButton(text="Lexa", url="https://t.me/Lexanih"),
 
                  ],
                  [
@@ -771,7 +771,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Yo, Mek Idup lagi nich.",
+                "👋 Ye Tod, Hidup lagi anjay.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
