@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"👋 Yoo, Aing {dispatcher.bot.first_name}. Nice to meet You.",
+            f"👋 Halo tod, Gua {dispatcher.bot.first_name}. Nice to meet You.",
             parse_mode=ParseMode.HTML
        )
 
@@ -429,7 +429,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/+Za08bmlN2kNlMzY1"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/amandes_nih"),
                     InlineKeyboardButton(text="Updates", url="https://t.me/Lexanih"),
                  ],
                  [
